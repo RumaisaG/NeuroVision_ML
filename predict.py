@@ -7,7 +7,6 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from torchvision import transforms
 import torch.nn.functional as F
-from pytorch_grad_cam import GradCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image
 from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 import torch.nn as nn
