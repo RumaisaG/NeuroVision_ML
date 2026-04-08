@@ -1,6 +1,9 @@
-flask==3.0.0
-flask-cors==4.0.0
+fastapi==0.111.1
+uvicorn[standard]==0.23.2
+torch==2.1.0          
+torchvision==0.18.1  
 pillow==10.1.0
 numpy==1.26.2
-matplotlib==3.8.2
-httpx
+opencv-python-headless==4.9.0.74
+pytorch-grad-cam==1.4.8
+httpx==0.26.1
